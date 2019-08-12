@@ -1,0 +1,52 @@
+for this purpose you can use the ssmtp.
+
+first of all try to install the mailutils :
+    sudo apt-get install mailutils
+note that set your settings on the appearing window to the second one.
+
+
+now install sstp:
+    sudo apt-get install ssmtp
+    
+
+
+now open the configuration file :
+    sudo gedit /etc/ssmtp/ssmtp.conf
+        or
+    sudo nano /etc/ssmtp/ssmtp.conf
+    
+    
+
+and then change the file to this :
+      root=ali.fele@gmail.com
+      mailhub=smtp.gmail.com:587
+      hostname=ali-Lenovo-v310-15ISK
+      AuthUser=ali.fele@gmail.com
+      AuthPass=1362290696Afp
+      UseSTARTTLS=Yes
+      UseTLS=Yes
+      
+      
+      
+now the most important thing to do is changing a security setting in your google
+account.
+
+go to google account. then to the security tab. In the list look for Less secure app access and turn it on.
+
+
+
+
+Now you can send email by one of the followint ways:
+
+1.
+
+        mail -s 'hey'
+        
+        then press enter and do the jobs appear on the screen.
+        
+2.
+
+        echo 'this' | mailx -s 'Hey' ali.fele@gmail.com
+
+
+        
