@@ -1,0 +1,4 @@
+when the system file drives got read only you can solve the problem using this code :
+
+
+sudo mount -o remount,rw '/media/ali/Ali'
