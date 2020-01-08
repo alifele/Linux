@@ -1,0 +1,21 @@
+one of the most probable problems you may incounter is the permission problem 
+the change the permission use can do a simple search (with chmod). Also for the owner change (with chown).
+
+
+but note that in our case you should change both "user" and "group"
+to do this simply run :
+
+'''
+sudo chown pi:pi <the name of the folder of file>
+'''
+
+
+Important Note:
+note that if you change the permissions for a folder, the permission states of the subfolders will not change.
+
+
+note:
+you can check the owners and the permissions of the files and folders with the command:
+'''
+ls -l
+'''
