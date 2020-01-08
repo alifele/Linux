@@ -1,0 +1,11 @@
+some times in the rasspberry-pi it is needed to change the time and the date manually
+
+you can run the following command:
+'''
+date -s '2014-12-25 12:34:56'
+'''
+(you can find the article here : https://raspberrypi.stackexchange.com/questions/76182/set-manually-datetime-raspberry)
+
+
+also this article is very verbose at the time setting of the raspberry-p
+https://raspberrytips.com/time-sync-raspberry-pi/
