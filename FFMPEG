@@ -1,0 +1,12 @@
+ffmpeg is a command line multimedia convertor
+
+to install the ffmpeg you can follow the instructions in the following article:
+https://linuxize.com/post/how-to-install-ffmpeg-on-ubuntu-18-04/
+
+
+for exmaple this command can convert a .mp3 to .ogg file:
+'''
+ffmpeg -i input.mp3 output.ogg
+'''
+
+you can find more tutorials with a simple google search.
