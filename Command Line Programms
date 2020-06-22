@@ -1,0 +1,18 @@
+Here is a list of command line programs on my system
+
+
+mplayer  --> for playing the videos
+ffmpeg --> for the multimedia convertion
+links2 --> the command line based browser
+cmus --> the Command line base music player
+mpg123 --> you can play mp3 files
+
+
+
+softwares:
+
+VMD --> visual molecular dynamics
+Free Surfer
+MNE ---> it is to be used with python in order to process the EEG, ECG, ...
+	 One version of it is installed in the base env of conda. so you can
+	 go to this env by 'conda deactivate' the current env and the 'coda activate base'

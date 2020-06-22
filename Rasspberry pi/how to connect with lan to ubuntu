@@ -1,0 +1,13 @@
+check out this video:
+
+https://www.youtube.com/watch?v=KjghxhS_wcM
+
+#################
+
+I have done all of those steps before. the IP address of the raspberry pi is $PI. i.e. just type down this in the terminal (of course with echo), and that will show the IP address of the device.
+
+try connecting to the device by writing :
+
+ssh pi@$PI
+
+for the password use : 1362290696Afp
