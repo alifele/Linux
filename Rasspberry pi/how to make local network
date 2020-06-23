@@ -1,0 +1,19 @@
+for "headless" rasp:
+
+
+in this case you should first connect the pi to your laptop directly. and then with this way connect to the wifi network that you want.
+to connec the pi to your laptop directly, check out: https://www.youtube.com/watch?v=KjghxhS_wcM
+
+then you can connect to the wifi network from command line (it might be a little bit complex!)
+and the other way to connect to the wifi network is stablishing vnc server connection to your pi and bringing up the GUI and then connecing
+to the network from GUI.
+also don't forget to enable the ssh interface. To do so you can type in the teminal of your pi : 'sudo raspi-config'. and then from the interfacing options you can enable the ssh inteface.
+
+
+then go to the admin setting of your router (192.168.1.1). If you are using the hotspot of your smartphone devices, simply install a hotspot manager app on your smartphone and read the IP address of the pi in your local network.
+
+now you can disconnect the lan cable, and connect to your pi with pi@IPADDRESS
+
+
+
+
