@@ -1,0 +1,19 @@
+check out this artivce:
+https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/
+
+To find the ip address of your device on local network simply type:
+hostname -I
+--------------------------------------------------------
+
+If for some reason you want to disable SSH on your Ubuntu machine you can simply stop the SSH service by running:
+
+sudo systemctl stop ssh
+To start it again run:
+
+sudo systemctl start ssh
+To disable the SSH service to start during system boot run:
+
+sudo systemctl disable ssh
+To enable it again type:
+
+sudo systemctl enable ssh

@@ -11,3 +11,17 @@ try connecting to the device by writing :
 ssh pi@$PI
 
 for the password use : 1362290696Afp
+
+#################
+
+In the tutirial, the instructor uses putty to enable X11 port forwarding. X11 forwarding will let you to use the GUI.
+
+To enable X11 forwarding you should do the instructions given in the youtube tutiral. you can check also this article:
+
+https://www.addictivetips.com/ubuntu-linux-tips/set-up-x11-forwarding-on-linux/
+
+################
+
+To enable X11 forwarding, you should do the following:
+
+ssh user@IP -X
