@@ -1,0 +1,23 @@
+The good news first: There are alot of Icons in /usr/share/icons  :)
+
+
+
+
+Creating a shortcut for your scripts or binary files are pretty straightforward.
+Note that in your file, you should have the shebang line (#! /.../bash or #! /.../python etc).
+
+To do so, you need to create a file called yourapp.desktop 
+You can find the template of that file in the same folder that this note is.
+Here is the template of that file :
+
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/ali/Programms/MATLAB/bin/matlab
+Name=Matlab
+Comment=Matlab
+Icon=/home/ali/Programms/MATLAB/ui/install/installer_login/images/apple-icons/apple-touch-icon-144x144.png
+
+yeah! it is very simple. just replace the information with yours. The you should put this file at /usr/share/applications. Since, to do so, you need the roop previlages, you can use "sudo cp yourapp.desktop /usr/share/applications" in your terminal.
