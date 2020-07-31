@@ -16,3 +16,11 @@ Free Surfer
 MNE ---> it is to be used with python in order to process the EEG, ECG, ...
 	 One version of it is installed in the base env of conda. so you can
 	 go to this env by 'conda deactivate' the current env and the 'coda activate base'
+
+
+_____________________________
+Edo sound effect:
+Edo.mp4 is a video at : /opt/Edo/Edo.mp4 
+Edo is a bash script at /usr/bin/Edo. Since this path is a path in the pathes of the bash ( you can check that by typing echo $PATH in the terminal). So, if you write Edo at your terminal, then the video will be played for you. I am using mplayer.
+
+The shortcut for that in the xfce desktop env is 'ctr+alt+\'

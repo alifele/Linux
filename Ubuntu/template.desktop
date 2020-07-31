@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/ali/Programms/MATLAB/bin/matlab
+Name=Matlab
+Comment=Matlab
+Icon=/home/ali/Programms/MATLAB/ui/install/installer_login/images/apple-icons/apple-touch-icon-144x144.png
+
