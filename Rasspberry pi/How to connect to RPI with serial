@@ -1,0 +1,34 @@
+the first thing that you need to do is wiring up the serial connection to the board.
+
+
+
+I use the USBtoTTL adaptor and the following connections
+---------+------------+
+adaptor  | board      |
+---------|------------|
+ground   | ground     |
+RX       | TX (pin 8) |
+TX       | RX(pin 10) |
+---------+------------+
+
+
+
+Note that you shouldn't connect to the baord with any other way while trying to connect with Serial connection. RPI uses 115200 speed for connection.
+you can use putty or screen or minicom.
+
+screen:
+	screen /dev/ttyUSB0 115200
+
+	
+minicom:
+	minicom -b 115200 -o -D /dev/ttyUSB0
+
+
+
+
+
+
+
+
+
+
